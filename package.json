@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "ts-node server.js",
+    "start": "npx ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -e ts,json,mustache src/server.ts"
   },
