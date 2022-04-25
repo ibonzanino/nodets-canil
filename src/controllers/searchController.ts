@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
 export const search = (req: Request, res: Response) => {
-  
-  // res.sender('pages/search);
+  res.send('search');
+  // res.render('pages/search);
 };
